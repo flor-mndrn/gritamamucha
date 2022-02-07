@@ -11480,19 +11480,9 @@ header.masthead h1, header.masthead .h1 {
   background:url("../img/fondo1.jpg");
   background-position: center;
   background-size: cover;
-/*   animation-name: fadeIn ; 			
-	animation-duration: 5s;        		
-	animation-iteration-count:1; 
-  -webkit-animation-fill-mode: forwards; */
+
   z-index:2;
   }
-
-/*   @keyframes fadeIn { 
-    0% {opacity: 1; } 
-    100% {opacity: 0; }
-         
-    }  
-     */
 
 
 body{
@@ -11721,6 +11711,7 @@ a:link, a:visited, a:active {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   z-index:2;
   }
 
