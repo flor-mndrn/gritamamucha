@@ -11480,19 +11480,19 @@ header.masthead h1, header.masthead .h1 {
   background:url("../img/fondo1.jpg");
   background-position: center;
   background-size: cover;
-  animation-name: fadeIn ; 			
+/*   animation-name: fadeIn ; 			
 	animation-duration: 5s;        		
 	animation-iteration-count:1; 
-  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; */
   z-index:2;
   }
 
-  @keyframes fadeIn { 
+/*   @keyframes fadeIn { 
     0% {opacity: 1; } 
     100% {opacity: 0; }
          
     }  
-    
+     */
 
 
 body{
