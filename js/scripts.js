@@ -6,7 +6,5 @@
 //
 // Scripts
 // 
-
-$("#bg-img").delay(3000)
-            .fadeOut(2000);
-
+$("#bg-img").delay(2000)
+       .fadeOut(3000);
