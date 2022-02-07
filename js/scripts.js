@@ -7,7 +7,6 @@
 // Scripts
 // 
 
-$(window).load(function() {
-    $(".loader").fadeOut(2000);
-    });
+$("#bg-img").delay(3000)
+            .fadeOut(2000);
 
