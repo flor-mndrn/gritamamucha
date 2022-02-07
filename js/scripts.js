@@ -6,5 +6,10 @@
 //
 // Scripts
 // 
-$("#bg-img").delay(2000)
-       .fadeOut(3000);
+
+$("#bg-img").delay(3000)
+       .fadeOut(1000); 
+/* 
+$("#bg-img").delay(100000)
+    .css({display:"none"});  */
+        
