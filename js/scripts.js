@@ -7,7 +7,8 @@
 // Scripts
 // 
 
-// Scripts
-//Declaración de métodos encadenados
-$("#bg-img").delay(3000)
+$(window).load(function() {
+    $("#bg-img").delay(3000)
             .fadeOut(2000);
+    });
+
