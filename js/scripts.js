@@ -8,7 +8,6 @@
 // 
 
 $(window).load(function() {
-    $("#bg-img").delay(3000)
-            .fadeOut(2000);
+    $(".loader").fadeOut("slow");
     });
 
