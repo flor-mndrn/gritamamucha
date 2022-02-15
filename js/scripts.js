@@ -11,6 +11,7 @@
 
        $(window).load(function() {
               $("#bg-img").css( "display", "block")
-              .delay(5000)
-              .fadeOut(3000);
+              .delay(3000)
+              $(".section-bg").css("display", "block")
+              $("#bg-img").fadeOut(3000);
           });
