@@ -10,6 +10,7 @@
 //       .fadeOut(3000);
 
        $(window).load(function() {
-              $("#bg-img").delay(5000)
+              $("#bg-img").css( "display", "block")
+              .delay(5000)
               .fadeOut(3000);
           });
