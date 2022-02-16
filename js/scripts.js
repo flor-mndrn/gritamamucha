@@ -9,9 +9,10 @@
 //$("#bg-img").delay(2000)
 //       .fadeOut(3000);
 
-       $(window).load(function() {
+             $(window).load(function() {
               $("#bg-img").css( "display", "block")
               .delay(3000)
+              $("body").css("background-image", " url('../img/fondo2.jpg')")
               $(".section-bg").css("display", "block")
               $("#bg-img").fadeOut(3000);
           });
