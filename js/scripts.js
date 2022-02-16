@@ -12,7 +12,7 @@
              $(window).load(function() {
               $("#bg-img").css( "display", "block")
               .delay(3000)
-              $("body").css("background-image", " url('../img/fondo2.jpg')")
+              $("body").css("background-image", " url('img/fondo2.jpg')")
               $(".section-bg").css("display", "block")
               $("#bg-img").fadeOut(3000);
           });
