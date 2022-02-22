@@ -11480,7 +11480,6 @@ header.masthead h1, header.masthead .h1 {
   background:url("../img/fondo1.jpg");
   background-position: center;
   background-size: cover;
-
   z-index:2;
   }
 
@@ -11547,7 +11546,7 @@ a:link, a:visited, a:active {
   pointer-events: none;
   cursor: default;
   color: black;
-  font-size: 38px;
+  font-size: 34px;
   -webkit-touch-callout: none!important; /* iOS Safari */
   -webkit-user-select: none!important;   /* Chrome/Safari/Opera */
   -khtml-user-select: none!important;    /* Konqueror */
@@ -11561,7 +11560,7 @@ a:link, a:visited, a:active {
   cursor: default;
 }
 .icono-ig{
-  max-width: 55px;
+  max-width: 48px;
   float: right;
 }
 
@@ -11593,8 +11592,40 @@ a:link, a:visited, a:active {
   margin-top: 0!important;
 }
 
+#manifiesto{
+  background: url("../img/mani-des.png");
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  background-position: center;
+  background-size: cover;
+}
 
+.redes{
+  display: inline-flex;
+}
 
+.redes h4{
+  font-family: Canela;
+  font-size: 38px;
+  color: white;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 10px;
+}
+
+.redes  .unite{
+  display: flex!important;
+  justify-content: center!important;
+}
+
+.flecha{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
 /*----------- version-mobile---------- */
 
 @media (max-width:1600px) {
@@ -11648,8 +11679,8 @@ a:link, a:visited, a:active {
     height: 100px;
 }
 .section-bg {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
   }
 
@@ -11665,6 +11696,9 @@ a:link, a:visited, a:active {
   }
   .boton{
     margin: 0px;
+  }
+  .icono-ig {
+    max-width: 35px;
   }
 
 }
@@ -11701,9 +11735,7 @@ a:link, a:visited, a:active {
   height: 50px;
 }
 
-.img-contador {
-  width: 150px;
-}
+
 
 #bg-img{
 
@@ -11714,6 +11746,14 @@ a:link, a:visited, a:active {
   background-size: cover;
   z-index:2;
   }
+
+  #manifiesto{
+    background:url("../img/mani-mob.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
 
 body{
   background-image: url("../img/fondo2-mb.jpg");
@@ -11743,8 +11783,23 @@ body{
 }
 
 .icono-ig{
-  max-width: 30px;
+  max-width: 26px;
 
+}
+.img-contador {
+  width: 160px;
+}
+.redes h4{
+  font-family: Canela;
+  font-size: 22px;
+  padding-left: 130px;
+  padding-right: 10px;
+}
+
+.flecha{
+  width: 20px;
+  height: 20px;
+  margin: auto;
 }
 
 }
@@ -11797,4 +11852,3 @@ body{
   }
 
 }
-
