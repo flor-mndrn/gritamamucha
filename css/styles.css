@@ -11609,7 +11609,7 @@ a:link, a:visited, a:active {
 
 .redes h4{
   font-family: Canela;
-  font-size: 38px;
+  font-size: 32px;
   color: white;
   margin: auto;
   padding-left: 100px;
@@ -11622,8 +11622,8 @@ a:link, a:visited, a:active {
 }
 
 .flecha{
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin: auto;
 }
 /*----------- version-mobile---------- */
@@ -11792,7 +11792,7 @@ body{
 .redes h4{
   font-family: Canela;
   font-size: 22px;
-  padding-left: 130px;
+  padding-left: 110px;
   padding-right: 10px;
 }
 
